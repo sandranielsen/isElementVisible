@@ -17,6 +17,12 @@ window.addEventListener("scroll", function() { // detect scroll event
     mySound.pause();
     mySound.currentTime = 0; // rewind the sound
   }
+    
+    
+    let video = document.getElementById("video");
+    let myVideo = document.getElementById('myVideo');
+    console.log(elFllVsbl("is the video visible?" + elFllVsbl(video) ));
+    
 })
 
 // this function will check whether a tag is visible
